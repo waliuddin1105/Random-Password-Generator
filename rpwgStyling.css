@@ -1,6 +1,4 @@
-*{
-    color: white;
-}
+
 body{
     background: rgb(0, 0, 26);
     font-family: Bahnschrift;
@@ -26,6 +24,7 @@ body{
 }
 
 .container h1{
+    color: white;
     font-weight: 500;
     font-size: 45px;   
 }
@@ -36,9 +35,34 @@ body{
     padding-bottom: 8px;   
 }
 
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
 .display input{
     border: 0;
     outline: 0;
     font-size: 24px;
     
+}
+
+.container button img{
+    width: 28px;
+    margin-right:10px;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: #00914d;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
 }
